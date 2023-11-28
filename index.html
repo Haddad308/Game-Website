@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Reviews</title>
+    <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/ui-essential-pack/32/Game_Mode-512.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="details" class=" container-fluid text-white details position-absolute p-3 d-none ">
+        <div class="close ">
+            <i class="fas fa-window-close fa-lg"></i>
+        </div>
+        <h1>Details Game</h1>
+        <div class="row game-details">
+
+        </div>
+    </div>
+
+    <div class="container d-flex justify-content-center position-relative  ">
+        <nav class="navbar rounded-4 navbar-dark bg-opacity-75 con navbar-expand-lg">
+            <div class="container ">
+                <a class="navbar-brand d-flex justify-content-center align-items-center   " href="#">
+                    <img src="css/img/logo-sm.png" alt="Logo" width="40" height="37.46"
+                        class="d-inline-block align-text-top">
+                    <p class="d-inline m-0">GAME REVIEWS</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0  ">
+                        <li class="nav-item mx-3 ">
+                            <a class="nav-link active" href="#">MMORPG</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#a">SHOOTER</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#a">SAILING</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#a">PERMADEATH</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="#a">SUPERHERO</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="#a">PIXEL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container games-con position-relative  ">
+        <div id="games-cards" class="row mb-5">
+        </div>
+    </div>
+
+    <div class="loading d-none">
+        <span class="loader"></span>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
